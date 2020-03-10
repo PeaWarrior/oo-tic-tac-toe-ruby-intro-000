@@ -114,6 +114,8 @@ class TicTacToe
     end
     if won? == "X" || won? == "O"
       puts "Congratulations #{@winner}!"
+    else puts "Cat's Game!"
+    end
   end
 
 end
