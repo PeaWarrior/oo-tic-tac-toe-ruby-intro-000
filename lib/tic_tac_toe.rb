@@ -98,4 +98,11 @@ class TicTacToe
     end
   end
 
+  def winner
+    if @winner == undefined
+      return nil
+    else return @winner
+    end
+  end
+
 end
