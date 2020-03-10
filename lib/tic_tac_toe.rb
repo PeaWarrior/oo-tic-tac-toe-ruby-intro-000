@@ -20,11 +20,11 @@ class TicTacToe
     puts "-----------"
     puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
     puts "-----------"
-    puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
+    puts " #{@board[6]} | #{@board[7]} | #{@  board[8]} "
   end
 
   def input_to_index(input)
-    return input.to_i-1
+    input.to_i-1
   end
 
 
