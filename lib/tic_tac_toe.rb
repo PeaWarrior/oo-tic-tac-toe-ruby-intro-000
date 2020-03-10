@@ -99,9 +99,9 @@ class TicTacToe
   end
 
   def winner
-    if !@winner
-      return nil
-    else return @winner
+    if won? != false
+      return @winner
+    else return nil
     end
   end
 
