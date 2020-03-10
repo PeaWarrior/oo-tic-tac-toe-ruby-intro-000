@@ -44,7 +44,7 @@ class TicTacToe
     def turn_count
       count = 0
       @board.each |slot| do
-        slot != " " ? count += 1 :
+        slot != " " ? count += 1 : count +=0
       end
     end
 
