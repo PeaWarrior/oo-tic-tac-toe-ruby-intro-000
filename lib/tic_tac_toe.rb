@@ -69,10 +69,10 @@ class TicTacToe
 
       if @board[win_index1] == "X" && @board[win_index2] == "X" && @board[win_index3] == "X"
         @winner = "X"
-        return true
+        return win_combo
       elsif @board[win_index1] == "O" && @board[win_index2] == "O" && @board[win_index3] == "O"
         @winner = "O"
-        return true
+        return win_combo
       else return false
       end
     end
