@@ -46,6 +46,7 @@ class TicTacToe
       @board.each do |slot|
         slot != " " ? count += 1 : count +=0
       end
+      return count
     end
 
 
