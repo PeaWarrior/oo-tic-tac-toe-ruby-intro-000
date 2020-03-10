@@ -46,7 +46,7 @@ class TicTacToe
       @board.count
         slot == "X" || slot == "O"
       end
-      return turn
+      
     end
 
 
