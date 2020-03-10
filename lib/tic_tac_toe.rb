@@ -40,6 +40,15 @@ class TicTacToe
       return true
     else return false
     end
+
+    def turn_count
+      count = 0
+      @board.each |slot| do
+        slot != " " ? count += 1 :
+      end
+    end
+
+
   end
 
 
