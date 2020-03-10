@@ -105,10 +105,14 @@ class TicTacToe
     end
   end
 
+  win_message = puts "Congratulations #{@winner}!"
+  draw_message = puts "Cat's Game!"
+
   def play
     until over? do
       turn
     end
+    !won? ? draw_message : win_message
   end
 
 end
