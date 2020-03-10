@@ -110,5 +110,6 @@ class TicTacToe
     until over? do
       turn
     end
+  end
 
 end
