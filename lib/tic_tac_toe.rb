@@ -112,7 +112,8 @@ class TicTacToe
     until over? do
       turn
     end
-    !won? ? draw_message : win_message
+    if won? == "X" || won? == "O"
+      puts "Congratulations #{@winner}!"
   end
 
 end
