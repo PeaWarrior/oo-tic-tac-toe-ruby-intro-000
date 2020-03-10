@@ -78,5 +78,11 @@ class TicTacToe
     return false
   end
 
+  def full?
+    @board.all? do |slot|
+      slot == "X" || slot == "O"
+    end
+  end
+
 
 end
