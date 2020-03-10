@@ -42,11 +42,9 @@ class TicTacToe
     end
 
     def turn_count
-      turn = 0
-      @board.count do |slot|
+      return @board.count do |slot|
         slot == "X" || slot == "O"
       end
-
     end
 
 
